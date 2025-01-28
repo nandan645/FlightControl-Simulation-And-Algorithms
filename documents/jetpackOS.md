@@ -26,3 +26,8 @@ Steps to install :
 		6. For now don't select jetpack files (the extra ones), just install the main on. Ill attatch pictures later. 
 		7. When installation is complete you can unplug it from the host.
 		8. Remove the jumper wires before booting up the device.
+
+
+#### Installation of Ubuntu 20.04 is also possible, not supported though.
+
+![preview_ubuntu](https://raw.githubusercontent.com/nandan645/FlightControl-Simulation-And-Algorithms/refs/heads/main/assets/WhatsApp%20Image%202024-12-09%20at%205.57.21%20PM.jpeg)
