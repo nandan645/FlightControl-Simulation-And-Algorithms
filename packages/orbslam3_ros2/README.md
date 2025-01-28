@@ -4,7 +4,7 @@
   - ROS2 Humble
   - OpenCV 4.5.4
 
-You can follow [ros2](https://github.com/nandan645/UAS-FlightControl-Simulation-And-Algorithms/blob/main/ROS%202%20Installation.md) and [orb_slam3](https://github.com/nandan645/UAS-FlightControl-Simulation-And-Algorithms/blob/main/orb_slam3_installation.md) for installations.
+You can follow [ros2](https://github.com/nandan645/FlightControl-Simulation-And-Algorithms/blob/main/documents/ros2installation.md) and [orb_slam3](https://github.com/nandan645/FlightControl-Simulation-And-Algorithms/blob/main/documents/orb_slam3_installation.md) for installations.
 
 ### How to build
 1. Clone repository to your ROS workspace
