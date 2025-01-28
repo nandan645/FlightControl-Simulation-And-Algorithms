@@ -124,6 +124,8 @@ int main(int argc, char** argv) {
     }
 
     // Shutdown SLAM system
+
+
     slam_system.Shutdown();
 
     // Release the video capture and close all OpenCV windows
@@ -138,3 +140,7 @@ int main(int argc, char** argv) {
 ```bash
 ./program <path_to_vocabulary> <path_to_config>
 ```
+
+#### Demo Video
+
+https://github.com/user-attachments/assets/e41618ac-e63e-49c0-8473-e5a38d7b6c53
