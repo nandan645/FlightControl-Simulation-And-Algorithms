@@ -57,3 +57,7 @@ $ ros2 run orbslam3 rgbd PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
 ```
 $ ros2 run orbslam3 stereo-inertial PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE BOOL_RECTIFY [BOOL_EQUALIZE]
 ```
+
+#### References
+
+https://github.com/zang09/ORB_SLAM3_ROS2/tree/humble
