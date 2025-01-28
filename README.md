@@ -13,6 +13,10 @@ export MAKEFLAGS="-j2"
 
 #### Some Prevews and Demos
 
+https://github.com/user-attachments/assets/e41618ac-e63e-49c0-8473-e5a38d7b6c53
+
+![LMC_20241213_185847_iphone 8 4](https://github.com/user-attachments/assets/a4bd9747-e208-40cb-8f31-25a8b1674b37)
+
 
 #### Disclaimer
 Some parts of this repository, such as certain files or modules, are not originally owned by me and have been taken from public sources. Full credit goes to the respective creators of these works. Credits are provided in respective doc.
