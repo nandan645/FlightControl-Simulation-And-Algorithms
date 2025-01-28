@@ -2,52 +2,71 @@ In case of Ubuntu 22.04 the `.deb` binaries already exist so we don't need to bu
 
 It's simple to install from the site, but to even simplify the steps further, I created this script.
 
-![[Assets/ros2installation.sh]]
 ```
 #!/bin/bash
 
-# Check for UTF-8
-echo "Checking locale settings..."
+# Update package index
+sudo apt update
+
+# Check current locale settings
 locale
 
-# Update package lists and install locales
-echo "Updating packages and installing locales..."
+# Install and set up UTF-8 locale
 sudo apt update && sudo apt install -y locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Verify locale settings
-echo "Verifying locale settings..."
 locale
 
-# Setup Sources
-echo "Installing necessary packages..."
+# Install necessary tools
 sudo apt install -y software-properties-common
 sudo add-apt-repository universe
 
-# Add the ROS 2 GPG key with apt
-echo "Adding ROS 2 GPG key..."
+# Update package index and install curl
 sudo apt update && sudo apt install -y curl
+
+# Add ROS 2 repository key
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
-# Add the repository to your sources list
-echo "Adding ROS 2 repository to sources list..."
+# Add ROS 2 repository to sources list
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
-# Update your apt repository caches
-echo "Updating repository caches..."
+# Update package index
 sudo apt update
 
-# Upgrade your system
-echo "Upgrading system packages..."
+# Upgrade installed packages
 sudo apt upgrade -y
 
-# Install ROS 2 packages
-echo "Installing ROS 2 packages..."
-sudo apt install -y ros-humble-desktop ros-dev-tools
+# Install ROS 2 Humble desktop version
+sudo apt install -y ros-humble-desktop
 
-echo "All tasks completed successfully!"
+# Install ROS development tools
+sudo apt install -y ros-dev-tools
+
+# Source ROS setup file (adjust for your shell if not using bash)
+if ! grep -q 'source /opt/ros/humble/setup.bash' ~/.bashrc; then
+    echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
+fi
+source ~/.bashrc
+
+# Instructions for testing
+cat << EOF
+
+ROS 2 installation completed. You can now test the installation:
+
+1. In one terminal, source the setup file and run a C++ talker:
+   source /opt/ros/humble/setup.bash
+   ros2 run demo_nodes_cpp talker
+
+2. In another terminal, source the setup file and run a Python listener:
+   source /opt/ros/humble/setup.bash
+   ros2 run demo_nodes_py listener
+
+You should see messages being published and received, verifying both the C++ and Python APIs.
+
+EOF
 
 ```
 
