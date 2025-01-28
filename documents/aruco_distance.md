@@ -130,3 +130,7 @@ python aruco_distance.py
 Hold the ArUco marker in front of the camera. Press 'q' to quit.
 
 The program will display the detected marker with its ID and real-time distance measurements in meters.
+
+#### Example Preview
+
+![preview](https://raw.githubusercontent.com/nandan645/FlightControl-Simulation-And-Algorithms/refs/heads/main/assets/Screenshot%20from%202025-01-07%2001-34-47.png)
