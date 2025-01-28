@@ -83,3 +83,10 @@ Make sure you are within root dir of ORB_SLAM3 wich can be `~/Documents/ORB_SLAM
 ```
 Preview from `./Examples/Monocular-Inertial/mono_inertial_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Monocular-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_monoi`
 ![Assets/Screenshot from 2025-01-29 00-10-34.png](https://raw.githubusercontent.com/nandan645/FlightControl-Simulation-And-Algorithms/refs/heads/main/assets/Screenshot%20from%202025-01-29%2000-10-34.png)
+
+
+#### References
+
+https://gist.github.com/bharath5673/4295e666cbe654a83226a2549a972c4f
+
+https://github.com/UZ-SLAMLab/ORB_SLAM3
