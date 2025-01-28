@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_distance_node = aruco_distance.aruco_distance_node:main
+

@@ -1,0 +1,35 @@
+running egg_info
+creating build/aruco_distance/aruco_distance.egg-info
+writing build/aruco_distance/aruco_distance.egg-info/PKG-INFO
+writing dependency_links to build/aruco_distance/aruco_distance.egg-info/dependency_links.txt
+writing entry points to build/aruco_distance/aruco_distance.egg-info/entry_points.txt
+writing requirements to build/aruco_distance/aruco_distance.egg-info/requires.txt
+writing top-level names to build/aruco_distance/aruco_distance.egg-info/top_level.txt
+writing manifest file 'build/aruco_distance/aruco_distance.egg-info/SOURCES.txt'
+reading manifest file 'build/aruco_distance/aruco_distance.egg-info/SOURCES.txt'
+writing manifest file 'build/aruco_distance/aruco_distance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build/lib
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build/lib/aruco_distance
+copying aruco_distance/__init__.py -> /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build/lib/aruco_distance
+copying aruco_distance/aruco_distance_node.py -> /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build/lib/aruco_distance
+running install
+running install_lib
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/python3.10/site-packages/aruco_distance
+copying /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build/lib/aruco_distance/__init__.py -> /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/python3.10/site-packages/aruco_distance
+copying /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/build/lib/aruco_distance/aruco_distance_node.py -> /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/python3.10/site-packages/aruco_distance
+byte-compiling /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/python3.10/site-packages/aruco_distance/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/python3.10/site-packages/aruco_distance/aruco_distance_node.py to aruco_distance_node.cpython-310.pyc
+running install_data
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/share/ament_index
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/share/ament_index/resource_index
+creating /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/share/ament_index/resource_index/packages
+copying resource/aruco_distance -> /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/share/ament_index/resource_index/packages
+copying package.xml -> /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/share/aruco_distance
+running install_egg_info
+Copying build/aruco_distance/aruco_distance.egg-info to /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/python3.10/site-packages/aruco_distance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_distance_node script to /home/abhinandan/ROS2/aruco_distance/src/aruco_distance/install/aruco_distance/lib/aruco_distance
+writing list of installed files to '/home/abhinandan/ROS2/aruco_distance/src/aruco_distance/build/aruco_distance/install.log'
