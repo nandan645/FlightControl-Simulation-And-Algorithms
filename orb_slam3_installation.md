@@ -81,3 +81,5 @@ Make sure you are within root dir of ORB_SLAM3 wich can be `~/Documents/ORB_SLAM
 ./Examples/Stereo-Inertial/stereo_inertial_euroc ./Vocabulary/ORBvoc.txt ./Examples/Stereo-Inertial/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Stereo-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereoi
 
 ```
+Preview from `./Examples/Monocular-Inertial/mono_inertial_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Monocular-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_monoi`
+![Assets/Screenshot from 2025-01-29 00-10-34.png](https://raw.githubusercontent.com/nandan645/UAS-FlightControl-Simulation-And-Algorithms/refs/heads/main/Assets/Screenshot%20from%202025-01-29%2000-10-34.png)
